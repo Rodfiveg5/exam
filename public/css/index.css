@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/fotos/fondo.png');
+    margin: 30px;
+    background-color: #000;
+    background-size: cover;
+    color: #000000;
+}
+
+h1 {
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #75ff63;
+    color: #000000;
+}
+
+table {
+    width: 98%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+.toby{
+    background-color: rgba(252, 143, 0, 0.626);
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+th {
+    background-color: #bcfcfb;
+    text-align: left;
+}
+
+td {
+    vertical-align: middle;
+    background-color: rgba(249, 250, 215, 0.774);
+}
+
+button {
+    color: #000000;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffff00;
+}
+
+form {
+    display: inline;
+}
+
+button:hover {
+    background-color: #f38888;
+    color: #000000;
+}
+.crear-btn {
+    background-color: beige;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.crear-btn:hover {
+    background-color: #42df1e;
+    color: #fff;
+}
+
+.columna{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.columna5{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.btn {
+    width: 50%;
+    padding: 10px;
+    margin: 5px auto 0 auto;
+    border-radius: 6px;
+    font-size: 15px;
+    border-color: #000;
+}
+
+

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/fotos/fondo.png');
+    background-size: cover  ;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+.contenedor {
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(249, 250, 215, 0.774);
+    padding: 20px;
+    border-radius: 8px;
+}
+form {
+    width: 380px;
+    margin: 0 auto;
+}
+
+div {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 70px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    margin: 10px auto 0 auto;
+    border-radius: 6px;
+    background-color: #2ce5704e;
+    color: white;
+    font-size: 15px;
+    display: block;
+}
+
+button:hover {
+    background-color: #8df987;
+    color: #fff;
+}
